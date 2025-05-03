@@ -1,0 +1,131 @@
+body{
+    font: 1em sans-serif;
+    /* margin: 0 25%; */
+}
+.body{
+    /* margin: 0 25%; */
+}
+.best_seller{
+   text-align: center;
+   line-height: 40px;
+}
+.best_seller h1{
+    margin: 0 25%;
+     text-align: center;
+   line-height: 50px;
+}
+.best_seller p{
+    margin: 0 25%;
+    font-size: 17px;
+    color: rgb(80,80,80);
+}
+.seller-button{
+    margin-top: 3%;
+}
+.book-images{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5%;
+    margin-left: 30%;
+    margin-top: 5%;
+    /* margin: 0 auto; */
+    height: 20vh;
+    /* margin: 0 25%; */
+}
+#view_books{
+    background-color: red;
+    width: 12%;
+    color: white;
+    align-self: center;
+    border-radius: 25px;
+    height: 4vh;
+    border: none;
+    margin: 0 44%;
+}
+#more_button{
+    background-color: red;
+    width: 50%;
+    color: white;
+    align-self: center;
+    border-radius: 25px;
+    height: 4vh;
+    border: none;
+    margin-top: 5%;
+}
+.cards_container h1{
+    text-align: center;
+    margin-top: 5%;
+
+}
+.marketing_cards{
+    display: flex;
+    gap: 7%;
+    background-color:brown;
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(book_images/author_image.jpeg); */
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: center;
+}
+#card{
+    border: rebeccapurple;
+    background-color: rebeccapurple;
+    /* color: black; */
+    width: 20%;
+    height: 30vh;
+    margin: auto 0;
+    border-radius: 10px;
+}
+.about_author p{
+    font-size: 20px;
+    color: rgb(80,80,80);
+}
+.marketing_cards img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.author{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    height: 80vh;
+    margin-top: -8%;
+    line-height: 30px;
+}
+.author h1{
+    font-size: 30px;
+}
+#about_author{
+    width: 22.5%;
+    /* height: 80vh; */
+    justify-content: center;
+    margin: auto 0;
+}
+#author_image{
+    width: 22.5%;
+    justify-content: center;
+    margin: auto 0;
+}
+#author_image img{
+    width: 100%;
+    border: none;
+    border-radius: 5%;
+}
+.footer{
+    background-color: orangered;
+    color: orangered;
+    border: 5px solid;
+    /* margin-top: -9%; */
+
+}
+.foot{
+    background-color: black;
+    color: black;
+    border: 20px solid;
+}
+.foot p{
+    color: white;
+    text-align: center;
+}
